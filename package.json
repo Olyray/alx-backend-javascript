@@ -1,0 +1,29 @@
+{
+  "name": "alx-backend-javascript",
+  "version": "1.0.0",
+  "description": "This is the README for the ALX Backend Repository",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Olyray/alx-backend-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olyray/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/Olyray/alx-backend-javascript#readme"
+}
