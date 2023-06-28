@@ -14,7 +14,7 @@ export default async function handleProfileSignup(firstName, lastName, filename)
   return waitPromises.map((eachPromise) => (
     {
       status: eachPromise.status,
-      value: eachPromise.status === 'fulfilled' ? eachPromise.value : eachPromise.reason.message,
+      value: eachPromise.status === 'fulfilled' ? eachPromise.value : eachPromise.reason,
     }
   ));
 }
