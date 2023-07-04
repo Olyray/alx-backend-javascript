@@ -1,5 +1,3 @@
-import getStudentsByLocation from './2-get_students_by_loc';
-
 export default function updateStudentGradeByCity(arrayOfStudents, city, arrayOfGrades) {
   //  Filter by cities in a variable called filteredCitites
   const filteredByCities = arrayOfStudents.filter((student) => student.location === city);
