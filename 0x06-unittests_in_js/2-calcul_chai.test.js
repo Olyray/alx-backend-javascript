@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const calculateNumber = require('./2-calcul');
+const calculateNumber = require('./2-calcul_chai');
 
 describe('calculateNumber', () => {
   it('should round up and add two numbers when type is SUM', () => {
