@@ -1,0 +1,24 @@
+{
+  "name": "unittests_in_js",
+  "version": "1.0.0",
+  "description": "Contains test modules for the project on unittests in Javascript",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olyray/alx-backend-javascript.git"
+  },
+  "author": "Olamide Olanrewaju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olyray/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/Olyray/alx-backend-javascript#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.47.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {}
+}
